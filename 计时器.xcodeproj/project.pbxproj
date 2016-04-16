@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CF82EB1CA6A3C2007EAA1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF82EA1CA6A3C2007EAA1B /* main.m */; };
+		18CF82EE1CA6A3C2007EAA1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF82ED1CA6A3C2007EAA1B /* AppDelegate.m */; };
+		18CF82F11CA6A3C2007EAA1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF82F01CA6A3C2007EAA1B /* ViewController.m */; };
+		18CF82F41CA6A3C2007EAA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF82F21CA6A3C2007EAA1B /* Main.storyboard */; };
+		18CF82F61CA6A3C2007EAA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF82F51CA6A3C2007EAA1B /* Assets.xcassets */; };
+		18CF82F91CA6A3C2007EAA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CF82F71CA6A3C2007EAA1B /* LaunchScreen.storyboard */; };
+		18CF83041CA6A3C2007EAA1B /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF83031CA6A3C2007EAA1B /* ___Tests.m */; };
+		18CF830F1CA6A3C3007EAA1B /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF830E1CA6A3C3007EAA1B /* ___UITests.m */; };
+		18E091A51CA6C16500DC8CDB /* SlidButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E091A41CA6C16500DC8CDB /* SlidButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CF83001CA6A3C2007EAA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CF82DE1CA6A3C2007EAA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CF82E51CA6A3C2007EAA1B;
+			remoteInfo = "计时器";
+		};
+		18CF830B1CA6A3C3007EAA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CF82DE1CA6A3C2007EAA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CF82E51CA6A3C2007EAA1B;
+			remoteInfo = "计时器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CF82E61CA6A3C2007EAA1B /* 计时器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计时器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF82EA1CA6A3C2007EAA1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CF82EC1CA6A3C2007EAA1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CF82ED1CA6A3C2007EAA1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CF82EF1CA6A3C2007EAA1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18CF82F01CA6A3C2007EAA1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18CF82F31CA6A3C2007EAA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CF82F51CA6A3C2007EAA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CF82F81CA6A3C2007EAA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CF82FA1CA6A3C2007EAA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CF82FF1CA6A3C2007EAA1B /* 计时器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计时器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF83031CA6A3C2007EAA1B /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		18CF83051CA6A3C2007EAA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CF830A1CA6A3C3007EAA1B /* 计时器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计时器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF830E1CA6A3C3007EAA1B /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		18CF83101CA6A3C3007EAA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E091A31CA6C16500DC8CDB /* SlidButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidButton.h; sourceTree = "<group>"; };
+		18E091A41CA6C16500DC8CDB /* SlidButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CF82E31CA6A3C2007EAA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF82FC1CA6A3C2007EAA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF83071CA6A3C3007EAA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CF82DD1CA6A3C2007EAA1B = {
+			isa = PBXGroup;
+			children = (
+				18CF82E81CA6A3C2007EAA1B /* 计时器 */,
+				18CF83021CA6A3C2007EAA1B /* 计时器Tests */,
+				18CF830D1CA6A3C3007EAA1B /* 计时器UITests */,
+				18CF82E71CA6A3C2007EAA1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CF82E71CA6A3C2007EAA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CF82E61CA6A3C2007EAA1B /* 计时器.app */,
+				18CF82FF1CA6A3C2007EAA1B /* 计时器Tests.xctest */,
+				18CF830A1CA6A3C3007EAA1B /* 计时器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CF82E81CA6A3C2007EAA1B /* 计时器 */ = {
+			isa = PBXGroup;
+			children = (
+				18CF82EC1CA6A3C2007EAA1B /* AppDelegate.h */,
+				18CF82ED1CA6A3C2007EAA1B /* AppDelegate.m */,
+				18CF82EF1CA6A3C2007EAA1B /* ViewController.h */,
+				18CF82F01CA6A3C2007EAA1B /* ViewController.m */,
+				18E091A31CA6C16500DC8CDB /* SlidButton.h */,
+				18E091A41CA6C16500DC8CDB /* SlidButton.m */,
+				18CF82F21CA6A3C2007EAA1B /* Main.storyboard */,
+				18CF82F51CA6A3C2007EAA1B /* Assets.xcassets */,
+				18CF82F71CA6A3C2007EAA1B /* LaunchScreen.storyboard */,
+				18CF82FA1CA6A3C2007EAA1B /* Info.plist */,
+				18CF82E91CA6A3C2007EAA1B /* Supporting Files */,
+			);
+			path = "计时器";
+			sourceTree = "<group>";
+		};
+		18CF82E91CA6A3C2007EAA1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CF82EA1CA6A3C2007EAA1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CF83021CA6A3C2007EAA1B /* 计时器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18CF83031CA6A3C2007EAA1B /* ___Tests.m */,
+				18CF83051CA6A3C2007EAA1B /* Info.plist */,
+			);
+			path = "计时器Tests";
+			sourceTree = "<group>";
+		};
+		18CF830D1CA6A3C3007EAA1B /* 计时器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CF830E1CA6A3C3007EAA1B /* ___UITests.m */,
+				18CF83101CA6A3C3007EAA1B /* Info.plist */,
+			);
+			path = "计时器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CF82E51CA6A3C2007EAA1B /* 计时器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CF83131CA6A3C3007EAA1B /* Build configuration list for PBXNativeTarget "计时器" */;
+			buildPhases = (
+				18CF82E21CA6A3C2007EAA1B /* Sources */,
+				18CF82E31CA6A3C2007EAA1B /* Frameworks */,
+				18CF82E41CA6A3C2007EAA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计时器";
+			productName = "计时器";
+			productReference = 18CF82E61CA6A3C2007EAA1B /* 计时器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CF82FE1CA6A3C2007EAA1B /* 计时器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CF83161CA6A3C3007EAA1B /* Build configuration list for PBXNativeTarget "计时器Tests" */;
+			buildPhases = (
+				18CF82FB1CA6A3C2007EAA1B /* Sources */,
+				18CF82FC1CA6A3C2007EAA1B /* Frameworks */,
+				18CF82FD1CA6A3C2007EAA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CF83011CA6A3C2007EAA1B /* PBXTargetDependency */,
+			);
+			name = "计时器Tests";
+			productName = "计时器Tests";
+			productReference = 18CF82FF1CA6A3C2007EAA1B /* 计时器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CF83091CA6A3C3007EAA1B /* 计时器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CF83191CA6A3C3007EAA1B /* Build configuration list for PBXNativeTarget "计时器UITests" */;
+			buildPhases = (
+				18CF83061CA6A3C3007EAA1B /* Sources */,
+				18CF83071CA6A3C3007EAA1B /* Frameworks */,
+				18CF83081CA6A3C3007EAA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CF830C1CA6A3C3007EAA1B /* PBXTargetDependency */,
+			);
+			name = "计时器UITests";
+			productName = "计时器UITests";
+			productReference = 18CF830A1CA6A3C3007EAA1B /* 计时器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CF82DE1CA6A3C2007EAA1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaocao;
+				TargetAttributes = {
+					18CF82E51CA6A3C2007EAA1B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6NAQTCGSSK;
+					};
+					18CF82FE1CA6A3C2007EAA1B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6NAQTCGSSK;
+						TestTargetID = 18CF82E51CA6A3C2007EAA1B;
+					};
+					18CF83091CA6A3C3007EAA1B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6NAQTCGSSK;
+						TestTargetID = 18CF82E51CA6A3C2007EAA1B;
+					};
+				};
+			};
+			buildConfigurationList = 18CF82E11CA6A3C2007EAA1B /* Build configuration list for PBXProject "计时器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CF82DD1CA6A3C2007EAA1B;
+			productRefGroup = 18CF82E71CA6A3C2007EAA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CF82E51CA6A3C2007EAA1B /* 计时器 */,
+				18CF82FE1CA6A3C2007EAA1B /* 计时器Tests */,
+				18CF83091CA6A3C3007EAA1B /* 计时器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CF82E41CA6A3C2007EAA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CF82F91CA6A3C2007EAA1B /* LaunchScreen.storyboard in Resources */,
+				18CF82F61CA6A3C2007EAA1B /* Assets.xcassets in Resources */,
+				18CF82F41CA6A3C2007EAA1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF82FD1CA6A3C2007EAA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF83081CA6A3C3007EAA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CF82E21CA6A3C2007EAA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CF82F11CA6A3C2007EAA1B /* ViewController.m in Sources */,
+				18CF82EE1CA6A3C2007EAA1B /* AppDelegate.m in Sources */,
+				18CF82EB1CA6A3C2007EAA1B /* main.m in Sources */,
+				18E091A51CA6C16500DC8CDB /* SlidButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF82FB1CA6A3C2007EAA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CF83041CA6A3C2007EAA1B /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF83061CA6A3C3007EAA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CF830F1CA6A3C3007EAA1B /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CF83011CA6A3C2007EAA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CF82E51CA6A3C2007EAA1B /* 计时器 */;
+			targetProxy = 18CF83001CA6A3C2007EAA1B /* PBXContainerItemProxy */;
+		};
+		18CF830C1CA6A3C3007EAA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CF82E51CA6A3C2007EAA1B /* 计时器 */;
+			targetProxy = 18CF830B1CA6A3C3007EAA1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CF82F21CA6A3C2007EAA1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CF82F31CA6A3C2007EAA1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CF82F71CA6A3C2007EAA1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CF82F81CA6A3C2007EAA1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CF83111CA6A3C3007EAA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CF83121CA6A3C3007EAA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CF83141CA6A3C3007EAA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "计时器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaocao.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CF83151CA6A3C3007EAA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "计时器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaocao.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CF83171CA6A3C3007EAA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "计时器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaocao.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/计时器.app/计时器";
+			};
+			name = Debug;
+		};
+		18CF83181CA6A3C3007EAA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "计时器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaocao.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/计时器.app/计时器";
+			};
+			name = Release;
+		};
+		18CF831A1CA6A3C3007EAA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "计时器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaocao.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "计时器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18CF831B1CA6A3C3007EAA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "计时器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaocao.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "计时器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CF82E11CA6A3C2007EAA1B /* Build configuration list for PBXProject "计时器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF83111CA6A3C3007EAA1B /* Debug */,
+				18CF83121CA6A3C3007EAA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CF83131CA6A3C3007EAA1B /* Build configuration list for PBXNativeTarget "计时器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF83141CA6A3C3007EAA1B /* Debug */,
+				18CF83151CA6A3C3007EAA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CF83161CA6A3C3007EAA1B /* Build configuration list for PBXNativeTarget "计时器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF83171CA6A3C3007EAA1B /* Debug */,
+				18CF83181CA6A3C3007EAA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CF83191CA6A3C3007EAA1B /* Build configuration list for PBXNativeTarget "计时器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF831A1CA6A3C3007EAA1B /* Debug */,
+				18CF831B1CA6A3C3007EAA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CF82DE1CA6A3C2007EAA1B /* Project object */;
+}
