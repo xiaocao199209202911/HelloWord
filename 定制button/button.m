@@ -16,8 +16,8 @@
         
         self.layer.masksToBounds = YES;
         self.layer.cornerRadius =self.frame.size.width * 0.5;
-        UIImage *image =nil;
-        image =[imageUnitls changeImageSize:[UIImage imageNamed:@"dert.jpg"] size:CGSizeMake(80, 80)];
+        UIImage *image =[UIImage imageNamed:@"Ico_Cold_Disc.png"];
+//        image =[imageUnitls changeImageSize:[UIImage imageNamed:@"Ico_Cold_Disc.png"] size:CGSizeMake(80, 80)];
         self.backgroundColor =[UIColor colorWithPatternImage:image];
         [self setTitle:@"主菜" forState:UIControlStateNormal];
         [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];

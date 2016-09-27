@@ -18,6 +18,7 @@
 		18B520BD1CC0DEAA00D9620D /* button.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B520BC1CC0DEAA00D9620D /* button.m */; };
 		18B520C11CC103F800D9620D /* dert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B520C01CC103F800D9620D /* dert.jpg */; };
 		18B520C41CC1085D00D9620D /* imageUnitls.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B520C31CC1085D00D9620D /* imageUnitls.m */; };
+		FDFD4A701CC2180F009CE542 /* Ico_Cold_Disc.png in Resources */ = {isa = PBXBuildFile; fileRef = FDFD4A6F1CC2180F009CE542 /* Ico_Cold_Disc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		18B520C01CC103F800D9620D /* dert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dert.jpg; sourceTree = "<group>"; };
 		18B520C21CC1085D00D9620D /* imageUnitls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageUnitls.h; sourceTree = "<group>"; };
 		18B520C31CC1085D00D9620D /* imageUnitls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageUnitls.m; sourceTree = "<group>"; };
+		FDFD4A6F1CC2180F009CE542 /* Ico_Cold_Disc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ico_Cold_Disc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		18B520871CC0DE4200D9620D /* 定制button */ = {
 			isa = PBXGroup;
 			children = (
+				FDFD4A6F1CC2180F009CE542 /* Ico_Cold_Disc.png */,
 				18B520C01CC103F800D9620D /* dert.jpg */,
 				18B5208B1CC0DE4200D9620D /* AppDelegate.h */,
 				18B5208C1CC0DE4200D9620D /* AppDelegate.m */,
@@ -262,6 +265,7 @@
 				18B520981CC0DE4200D9620D /* LaunchScreen.storyboard in Resources */,
 				18B520951CC0DE4200D9620D /* Assets.xcassets in Resources */,
 				18B520C11CC103F800D9620D /* dert.jpg in Resources */,
+				FDFD4A701CC2180F009CE542 /* Ico_Cold_Disc.png in Resources */,
 				18B520931CC0DE4200D9620D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +521,7 @@
 				18B520B41CC0DE4200D9620D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B520B51CC0DE4200D9620D /* Build configuration list for PBXNativeTarget "定制buttonTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				18B520B71CC0DE4200D9620D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B520B81CC0DE4200D9620D /* Build configuration list for PBXNativeTarget "定制buttonUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				18B520BA1CC0DE4200D9620D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
